@@ -15,7 +15,7 @@ It will generates documents from Javadoc compatible documentation syntax.
  */
 public Object pop() throws NoSuchElementException{
     int length = this.elements.size();
-	  if (length == 0) throw new NoSuchElementException();
-	  return this.elements.remove(length - 1);
+    if (length == 0) throw new NoSuchElementException();
+    return this.elements.remove(length - 1);
 }
 ```
